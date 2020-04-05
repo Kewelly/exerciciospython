@@ -1,0 +1,7 @@
+a = input('digite algo')
+print('o tipo primitivo desse valor é\033[31;40m{}\033[m'.format(type(a)))
+print('só tem espaço? \033[31;40m{}\033[m '.format(a.isspace()))
+print('é um número?\033[31;40m{}\033[m'.format(a.isnumeric()))
+print('é alfabeto?\033[31;40m{}\033[m'.format(a.isalpha()))
+print('é alphanumeric?\033[31;40m{}\033[m'.format(a.isalnum()))
+print('está em minúsculo? \033[31;40m{}\033[m'.format(a.islower()))

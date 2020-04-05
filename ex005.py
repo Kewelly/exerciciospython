@@ -1,0 +1,5 @@
+n1=int(input('Dígite um número:'))
+an=int(n1-1)
+su=int(n1+1)
+print('O antecessor do número \033[7;30m{}\033[m é \033[7;30m{}\033[m'.format(n1,an),end=' ')
+print('e o sucessor é \033[7;30m{}\033[m'.format(su))
